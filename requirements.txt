@@ -1,0 +1,7 @@
+langgraph
+langchain-groq
+python-dotenv
+duckdb
+requests
+fastapi
+uvicorn

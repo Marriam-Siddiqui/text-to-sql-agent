@@ -1,0 +1,49 @@
+:root {
+  --ink: #1f302b;
+  --muted: #68776f;
+  --line: #dce4dd;
+  --paper: #fff;
+  --orange: #c45832;
+  --green: #3c8b6c;
+  --green-bright: #88caa4;
+  --mono: "Cascadia Code", "SFMono-Regular", Consolas, monospace;
+
+  color: var(--ink);
+  background: #f2f5f1;
+  font-family: "Aptos", "Segoe UI Variable", "Segoe UI", sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(rgba(52, 88, 71, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(52, 88, 71, 0.025) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  letter-spacing: 0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  color: white;
+  background: #3c8067;
+}

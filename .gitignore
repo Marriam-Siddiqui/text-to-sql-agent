@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+data/
+*.duckdb
+gold_taxi_trips.csv
+frontend/node_modules/
+frontend/dist/
